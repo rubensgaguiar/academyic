@@ -1,0 +1,4 @@
+jsondiff==1.1.2
+pytest==4.0.2
+setuptools==40.5.0
+typing==3.6.6

@@ -1,0 +1,99 @@
+{
+  "bin": "soccerwindow2",
+  "options": {
+    "monitor_client": {
+      "connect": "on",
+      "host": "127.0.0.1",
+      "port": 6000,
+      "client-version": 4,
+      "wait-seconds": 5,
+      "auto-quit-mode": "off",
+      "kill-server": "off",
+      "server-pid": 0,
+      "server-path": "rcssserver",
+      "time-shift-replay": true
+    },
+    "log_player": {
+      "game-log": "",
+      "game-log-dir": "",
+      "auto-loop-mode": "off",
+      "time-interval": 100
+    },
+    "window": {
+      "geometry": "",
+      "maximize": "off",
+      "full-screen": "off",
+      "canvas-size": "",
+      "tool-bar-area": "top",
+      "hide-menu-bar": "off",
+      "hide-tool-bar": "off",
+      "hide-status-bar": "off"
+    },
+    "view": {
+      "anonymous-mode": "off",
+      "paint-style": "",
+      "field-grass-type": "",
+      "keepaway-mode": "off",
+      "show-score-board": "on",
+      "hide-score-board": "off",
+      "show-team-graphic": "on",
+      "hide-team-grahip": "off",
+      "anti-aliasing": true,
+      "gradient": false,
+      "reverse-side": "off",
+      "player-reverse-draw": "off",
+      "show-player-number": "on",
+      "hide-player-number": "off",
+      "show-player-type": "off",
+      "hide-player-type": "on",
+      "show-view-area": "on",
+      "hide-view-area": "off",
+      "show-pointto": "on",
+      "hide-pointto": "off",
+      "show-attentionto": "off",
+      "hide-attentionto": "on",
+      "show-stamina": "on",
+      "hide-stamina": "off",
+      "show-stamina-capacity": "off",
+      "hide-stamina-capacity": "on",
+      "show-card": "on",
+      "hide-card": "off",
+      "enlarge-mode": "on",
+      "ball-size": 0.35,
+      "player-size": 0
+    },
+    "debug_server": {
+      "debug-server-mode": "on",
+      "debug-server-port": 6032,
+      "debug-log-dir": ""
+    },
+    "debug_view": {
+      "show-debug-view": "on",
+      "hide-debug-view": "off",
+      "show-debug-view-ball": "on",
+      "hide-debug-view-ball": "off",
+      "show-debug-view-self": "on",
+      "hide-debug-view-self": "off",
+      "show-debug-view-teammates": "on",
+      "hide-debug-view-teammates": "off",
+      "show-debug-view-opponents": "on",
+      "hide-debug-view-opponents": "off",
+      "show-debug-view-comment": "on",
+      "hide-debug-view-comment": "off",
+      "show-debug-view-shape": "on",
+      "hide-debug-view-shape": "off",
+      "show-debug-view-target": "on",
+      "hide-debug-view-target": "off",
+      "show-debug-view-message": "on",
+      "hide-debug-view-message": "off",
+      "show-debug-log-objects": "on",
+      "hide-debug-log-objects": "off"
+    },
+    "image_save": {
+      "auto-image-save": "off",
+      "image-save-dir": "",
+      "image-name-prefix": "image-",
+      "image-save-format": "PNG"
+    }
+  }
+}

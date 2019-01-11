@@ -1,0 +1,28 @@
+{
+  "training-module": "example",
+  "applications": {
+    "players": [
+      {
+        "name": "itandroids_actor",
+        "bin": "/home/coimbra/soccer2d/work/itandroids-soccer2d/scripts/start/start.sh",
+        "mode": "actor"
+      },
+      {
+        "name" : "itandroids_npc",
+        "bin": "/home/coimbra/soccer2d/work/itandroids-soccer2d/scripts/start/start.sh",
+        "mode": "npc"
+      },
+      {
+        "name": "itandroids_support",
+        "bin": "/home/coimbra/soccer2d/work/itandroids-soccer2d/scripts/start/start.sh",
+        "mode": "support"
+      },
+      {
+        "name": "asimov_npc",
+        "bin": "/home/coimbra/soccer2d/outrosTimes/larc/2017/asimov/src/start.sh",
+        "mode": "npc"
+      }
+    ]
+    
+  }
+}

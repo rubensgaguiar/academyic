@@ -1,0 +1,22 @@
+{
+  "learning": {
+
+  },
+  "session": {
+    "players": {
+      "left": [
+        "itandroids_npc",
+        "itandroids_actor",
+        "itandroids_support"
+      ],
+      "right": [
+        "asimov_npc",
+        "asimov_npc",
+        "asimov_npc"
+      ]
+    },
+    "trainer": {
+
+    }
+  }
+}
