@@ -11,4 +11,4 @@ def load_json(path: str) -> dict:
 
 
 def diff_json(json1: dict, json2: dict) -> dict:
-    return diff(json1, json2)
+    return diff(json1, json2, syntax='explicit')

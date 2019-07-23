@@ -1,8 +1,8 @@
 {
-  "bin": "soccerwindow2",
+  "bin": "soccerwindow2-qt4",
   "options": {
     "monitor_client": {
-      "connect": "on",
+      "connect": "off",
       "host": "127.0.0.1",
       "port": 6000,
       "client-version": 4,
@@ -63,7 +63,7 @@
       "player-size": 0
     },
     "debug_server": {
-      "debug-server-mode": "on",
+      "debug-server-mode": "off",
       "debug-server-port": 6032,
       "debug-log-dir": ""
     },

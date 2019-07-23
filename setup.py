@@ -23,7 +23,7 @@ except OSError:
 
 setup(
     name="sacademy",
-    version="0.1",
+    version="0.0.1",
     description="A general purpose reinforcement learning environment for the Soccer Simulation 2D League.",
 #   license="",
     author="ITAndroids Soccer2D",

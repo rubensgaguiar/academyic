@@ -1,0 +1,7 @@
+{
+  "player-config": "/home/rubens/soccer2d/outrostimes/asimov/src/player.conf",
+  "config_dir": "/home/rubens/soccer2d/outrostimes/asimov/src/formations",
+  "host": "localhost",
+  "team_name": "Asimov",
+  "port": 6000
+}

@@ -1,5 +1,5 @@
-from sacademy import factory
-import sacademy.utils as utils
+from sacademy.factory.builder_factory import FactoryBuilder
+from sacademy.factory.module_factory import ModuleFactory
 
 
 class Academy:
@@ -7,23 +7,23 @@ class Academy:
         Main Soccer Academy orchestrator.
     """
 
-    """ receive dict but without verify params"""
     def __init__(self, options: dict) -> None:
         self.options = options
+        self.factory = FactoryBuilder(options)
+        self.module_factory = ModuleFactory(self.factory)
+        self.module = self.module_factory.new_module()
+        self.module.init()
 
     def exit(self) -> None:
         """
             Handles interruption and exits safely
         :return:
         """
-        raise NotImplementedError
+        self.module.stop()
 
     def run(self) -> None:
         """
             Main call
         :return:
         """
-        module_options = load_json("conf/modules/example.json")
-        self.module = new_module("example", module_options)
-
-        self.module.start_module()
+        self.module.start()

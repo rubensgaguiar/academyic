@@ -1,0 +1,7 @@
+{
+  "player-config": "/home/rubens/soccer2d/outrostimes/itandroids/2018/source/player.conf",
+  "config_dir": "/home/rubens/soccer2d/outrostimes/itandroids/2018/source/formations-dt",
+  "host": "localhost",
+  "team_name": "ITAndroids2018",
+  "port": 6000
+}

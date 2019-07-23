@@ -7,22 +7,17 @@
     },
     "window": {
       "bin": "/usr/local/bin/soccerwindow2",
-      "options": "/home/rubens/soccer2d/work/itandroids-soccer2d/source/tools/SoccerAcademy/conf/sacademy/window.json"
+      "options": "/home/rubens/soccer2d/work/itandroids-soccer2d/source/tools/SoccerAcademy/tests/conf/sacademy/window.json"
     },
     "applications": {
       "coaches": {
         "itandroids_trainer": {
           "bin": "/home/rubens/soccer2d/work/itandroids-soccer2d/binaries/ITAndroids_trainer",
-          "options": "/home/rubens/soccer2d/work/itandroids-soccer2d/source/tools/SoccerAcademy/conf/applications/itandroids2d_trainer.json",
-          "mode": "npc"
-        },
-        "asimov_trainer": {
-          "bin": "/home/rubens/soccer2d/outrostimes/asimov/src/asimov_player",
-          "options": "/home/rubens/soccer2d/work/itandroids-soccer2d/source/tools/SoccerAcademy/conf/applications/asimov_trainer.json",
+          "options": "/home/rubens/soccer2d/work/itandroids-soccer2d/source/tools/SoccerAcademy/tests/conf/applications/itandroids2d_trainer.json",
           "mode": "npc"
         },
         "asimov_npc": {
-          "bin": "/home/rubens/soccer2d/outrostimes/asimov/src/asimov_player",
+          "bin": "/home/rubens/soccer2d/outrostimes/asimov/src/start.sh",
           "options": "/home/rubens/soccer2d/work/itandroids-soccer2d/source/tools/SoccerAcademy/conf/applications/asimov2016_player.json",
           "goalie": false,
           "mode": "npc"
@@ -30,37 +25,37 @@
       },
       "players": {
         "itandroids_goalie_npc": {
-          "bin": "/home/rubens/soccer2d/outrostimes/itandroids/2018/binaries/ITAndroids_player",
-          "options": "/home/rubens/soccer2d/work/itandroids-soccer2d/source/tools/SoccerAcademy/conf/applications/itandroids2d_player.json",
+          "bin": "/home/rubens/soccer2d/work/itandroids-soccer2d/scripts/start/start.sh",
+          "options": "/home/rubens/soccer2d/work/itandroids-soccer2d/source/tools/SoccerAcademy/tests/conf/applications/itandroids2d_player.json",
           "goalie": true,
           "mode": "npc"
         },
         "itandroids_actor": {
-          "bin": "/home/rubens/soccer2d/work/itandroids-soccer2d/binaries/ITAndroids_player",
-          "options": "/home/rubens/soccer2d/work/itandroids-soccer2d/source/tools/SoccerAcademy/conf/applications/itandroids2d_player.json",
+          "bin": "/home/rubens/soccer2d/work/itandroids-soccer2d/scripts/start/start.sh",
+          "options": "/home/rubens/soccer2d/work/itandroids-soccer2d/source/tools/SoccerAcademy/tests/conf/applications/itandroids2d_player.json",
           "goalie": false,
           "mode": "actor"
         },
         "itandroids_npc": {
-          "bin": "/home/rubens/soccer2d/outrostimes/itandroids/2018/binaries/ITAndroids_player",
+          "bin": "/home/rubens/soccer2d/work/itandroids-soccer2d/scripts/start/start.sh",
           "options": "/home/rubens/soccer2d/work/itandroids-soccer2d/source/tools/SoccerAcademy/conf/applications/itandroids2d_player.json",
           "goalie": false,
           "mode": "npc"
         },
         "itandroids_support": {
-          "bin": "/home/rubens/soccer2d/work/itandroids-soccer2d/binaries/ITAndroids_player",
+          "bin": "/home/rubens/soccer2d/outrostimes/itandroids/2018/binaries/ITAndroids_player",
           "options": "/home/rubens/soccer2d/work/itandroids-soccer2d/source/tools/SoccerAcademy/conf/applications/itandroids2d_player.json",
           "goalie": false,
           "mode": "support"
         },
         "asimov_goalie_npc": {
-          "bin": "/home/rubens/soccer2d/outrostimes/asimov/src/asimov_player",
+          "bin": "/home/rubens/soccer2d/outrostimes/asimov/src/start.sh",
           "options": "/home/rubens/soccer2d/work/itandroids-soccer2d/source/tools/SoccerAcademy/conf/applications/asimov2016_player.json",
           "goalie": true,
           "mode": "npc"
         },
         "asimov_npc": {
-          "bin": "/home/rubens/soccer2d/outrostimes/asimov/src/asimov_player",
+          "bin": "/home/rubens/soccer2d/outrostimes/asimov/src/start.sh",
           "options": "/home/rubens/soccer2d/work/itandroids-soccer2d/source/tools/SoccerAcademy/conf/applications/asimov2016_player.json",
           "goalie": false,
           "mode": "npc"

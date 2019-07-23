@@ -1,0 +1,14 @@
+syntax = "proto2";
+
+package academy;
+
+message Learner {
+    enum TaskType {
+        START = 0;
+        RESET = 1;
+        END = 2;
+    }
+
+    optional TaskType task = 1;
+    optional float action = 4;
+}

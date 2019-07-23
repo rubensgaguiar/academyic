@@ -3,7 +3,6 @@
   "options": {
     "include": "",
     "server": {
-        "version": "15.4.0",
         "catch_ban_cycle": 5,
         "clang_advice_win": 1,
         "clang_define_win": 1,
@@ -63,7 +62,7 @@
         "text_log_compression": 0,
         "auto_mode": false,
         "back_passes": true,
-        "coach": false,
+        "coach": true,
         "coach_w_referee": false,
         "forbid_kick_off_offside": true,
         "free_kick_faults": true,
@@ -190,13 +189,12 @@
         "keepaway_log_fixed_name": "rcssserver",
         "landmark_file": "~/.rcssserver-landmark.xml",
         "log_date_format": "%Y%m%d%H%M%S-",
-        "team_l_start": "",
+        "team_l_start": "server",
         "team_r_start": "server",
         "text_log_dir": "./",
         "text_log_fixed_name": "rcssserver"
       },
     "player": {
-        "version": "15.4.0",
         "player_types": 18,
         "pt_max": 1,
         "random_seed": -1,
@@ -228,7 +226,6 @@
         "stamina_inc_max_delta_factor": 0
       },
     "csvsaver": {
-        "version": "15.4.0",
         "save": false,
         "filename": "rcssserver.csv"
       }
